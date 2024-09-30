@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notizblock</title>
+
+    <script src="script.js"></script>
+</head>
+<body onload="init()">
+
+    <h1>Notizblock</h1>
+
+    
+
+    <input id="note_input" type="text">
+    <button onclick="addNote()">Notiz speichern</button>
+    <h2>Notizen</h2>
+    <div id="content">
+        
+        <p>+ rasenmähen</p>
+
+    </div>
+    
+    <h2>Papierkorb</h2>
+    <div onload="renderTrashNotes()" id="trash_content">
+
+
+    </div>
+
+
+</body>
+</html>
